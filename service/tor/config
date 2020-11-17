@@ -7,6 +7,7 @@
 # MaxCircuitDirtiness 300
 
 SocksListenAddress 0.0.0.0
+SocksPolicy accept *
 SocksPort 9050
 
 ControlListenAddress 0.0.0.0
