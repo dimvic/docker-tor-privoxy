@@ -6,11 +6,9 @@
 # CircuitIdleTimeout 120
 # MaxCircuitDirtiness 300
 
-SocksListenAddress 0.0.0.0
 SocksPolicy accept *
-SocksPort 9050
+SocksPort 0.0.0.0:9050
 
-ControlListenAddress 0.0.0.0
-ControlPort 9051
+ControlPort 0.0.0.0:9051
 HashedControlPassword 16:41464F3FB8A39E5E60897997D7F6EB3F3E2A5F7800BAE0A8842E3FB0CA
 # HashedControlPassword = "pass"
